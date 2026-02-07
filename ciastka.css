@@ -1,0 +1,22 @@
+.ciastka_container {
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    gap: 0px;
+}
+
+.ciastka_text {
+    padding: 10px;
+    border-right: 2px solid #d89f83;
+    border-bottom: 2px solid #d89f83;
+}
+.ciastka_text h1 {
+    text-align: center;
+}
+.ciastka_img {
+    padding: 10px;
+    border-bottom: 2px solid #d89f83;
+}
+.ciastka_img img {
+    width: 100%;
+    border-radius: 10px;
+}

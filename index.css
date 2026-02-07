@@ -1,0 +1,54 @@
+ body {
+    background: #fff8f2;
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu {
+    margin-bottom: 20px;
+}
+
+.ciastko-btn {
+    background: #000000ec;
+    color: khaki;
+    border: none;
+    padding: 8px 18px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ciastko-btn:hover {
+    background: #d08e67;
+}
+
+.main_blok {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block {
+    width: 250px;
+    background: #d89f83;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+.block:hover {
+    transform: scale(1.05);
+}
+.block img {
+    width: 100%;
+    border-radius: 8px;
+}
