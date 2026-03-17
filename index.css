@@ -12,6 +12,7 @@ a {
 }
 .title1 {
     background-color: #d89f83;
+    
 
 }
 .title2 {
@@ -61,4 +62,69 @@ a {
 .block img {
     width: 100%;
     border-radius: 8px;
+}
+
+body {
+    background-color: #f7e7d2;
+    background-image: radial-gradient(#f5c6aa 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.block {
+    background: #ffd9c0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+body{
+  margin:0;
+  font-family:'Playfair Display',serif;
+  color:#111;
+}
+
+
+.title1{
+  text-align:center;
+  margin-top:60px;
+}
+
+.title1 h1{
+  font-size:44px;
+  font-weight:600;
+  letter-spacing:2px;
+  margin:0;
+}
+
+
+.title2{
+  text-align:center;
+  margin-top:15px;
+}
+
+.title2 h2{
+  display:inline-block;
+  font-size:18px;
+  font-weight:400;
+  color:#555;
+  position:relative;
+  padding:0 20px;
+}
+
+
+.title2 h2::before,
+.title2 h2::after{
+  content:"";
+  position:absolute;
+  top:50%;
+  width:40px;
+  height:1px;
+  background:#ccc;
+}
+
+.title2 h2::before{
+  left:-50px;
+}
+
+.title2 h2::after{
+  right:-50px;
 }
