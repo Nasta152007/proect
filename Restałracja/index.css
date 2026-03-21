@@ -1,0 +1,28 @@
+body {
+    background-image: url("img/restw.jpg");
+    background-size: cover;
+}
+.kontejner{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.podpis {
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 230px;
+  margin-left:50px ;
+}
+.knopka {
+    display: flex;
+    justify-content: flex-end;
+}
+.knopka img{
+    width: 50px;
+    margin-left: 20%;
+
+}
+.knopka img:hover{
+    transform: scale(1.2);
+}
